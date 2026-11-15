@@ -1,0 +1,34 @@
+{
+  "engine": "Unicorn 2.1.4",
+  "cpu": {
+    "O0": {
+      "instructions": 4606,
+      "data_references": 1703,
+      "all_registers_and_ram_match": true
+    },
+    "O1": {
+      "instructions": 1585,
+      "data_references": 237,
+      "all_registers_and_ram_match": true
+    },
+    "v2": {
+      "instructions": 4073,
+      "data_references": 1525,
+      "all_registers_and_ram_match": true
+    }
+  },
+  "cache": {
+    "O0": {
+      "configurations_checked": 7,
+      "every_hit_and_writeback_matches": true
+    },
+    "O1": {
+      "configurations_checked": 7,
+      "every_hit_and_writeback_matches": true
+    },
+    "v2": {
+      "configurations_checked": 7,
+      "every_hit_and_writeback_matches": true
+    }
+  }
+}

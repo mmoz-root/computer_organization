@@ -1,0 +1,1170 @@
+{
+  "O0": {
+    "cache": {
+      "references": 1703,
+      "hits": 1533,
+      "misses": 170,
+      "ratio": 0.9001761597181445,
+      "writes": 108,
+      "average_cycles": 2.9964768056371107,
+      "lines": [
+        {
+          "index": 0,
+          "tag": 16777223,
+          "block": 2147484544,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 1,
+          "tag": 16777225,
+          "block": 2147484816,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 2,
+          "tag": 16777224,
+          "block": 2147484704,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 3,
+          "tag": 16777727,
+          "block": 2147549104,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 4,
+          "tag": 16777727,
+          "block": 2147549120,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 5,
+          "tag": 16777727,
+          "block": 2147549136,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 6,
+          "tag": 16777727,
+          "block": 2147549152,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 7,
+          "tag": 16777727,
+          "block": 2147549168,
+          "dirty": false,
+          "lru": 1
+        }
+      ],
+      "miss_types": {
+        "compulsory": 20,
+        "capacity": 33,
+        "conflict": 117
+      }
+    },
+    "timing": {
+      "counts": {
+        "ALU": 2272,
+        "multiply": 134,
+        "load": 1116,
+        "store": 587,
+        "control": 497
+      },
+      "ic": 4606,
+      "core_cycles": 5371,
+      "cpi": 1.166087711680417,
+      "mips": 857.5684230124745,
+      "m": 0.3697351280937907,
+      "without_cache": 39431,
+      "with_cache": 10474.0
+    },
+    "stack": 1282,
+    "array": 198,
+    "source_ic": 4383,
+    "source_refs": 1649,
+    "sections": {
+      ".text": [
+        2147483648,
+        860
+      ],
+      ".rodata": [
+        2147484508,
+        4
+      ],
+      ".data": [
+        2147484544,
+        72
+      ],
+      ".bss": [
+        2147484616,
+        208
+      ],
+      ".riscv.attributes": [
+        0,
+        42
+      ],
+      ".debug_info": [
+        0,
+        318
+      ],
+      ".debug_abbrev": [
+        0,
+        215
+      ],
+      ".debug_aranges": [
+        0,
+        32
+      ],
+      ".debug_line": [
+        0,
+        534
+      ],
+      ".debug_str": [
+        0,
+        187
+      ],
+      ".debug_line_str": [
+        0,
+        153
+      ],
+      ".debug_frame": [
+        0,
+        96
+      ]
+    },
+    "first30": {
+      "references": 30,
+      "hits": 22,
+      "misses": 8,
+      "ratio": 0.7333333333333333,
+      "writes": 0,
+      "average_cycles": 6.333333333333334,
+      "lines": [
+        {
+          "index": 0,
+          "tag": 16777224,
+          "block": 2147484672,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 1,
+          "tag": 16777224,
+          "block": 2147484688,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 2,
+          "tag": 16777224,
+          "block": 2147484704,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 3,
+          "tag": 16777224,
+          "block": 2147484720,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 4,
+          "tag": 16777223,
+          "block": 2147484608,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 5,
+          "tag": 16777223,
+          "block": 2147484624,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 6,
+          "tag": 16777223,
+          "block": 2147484640,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 7,
+          "tag": 16777223,
+          "block": 2147484656,
+          "dirty": true,
+          "lru": 1
+        }
+      ]
+    },
+    "mapping": {
+      "1": {
+        "references": 1703,
+        "hits": 1533,
+        "misses": 170,
+        "ratio": 0.9001761597181445,
+        "writes": 108,
+        "average_cycles": 2.9964768056371107,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 16777223,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 16777225,
+            "block": 2147484816,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 2,
+            "tag": 16777224,
+            "block": 2147484704,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 3,
+            "tag": 16777727,
+            "block": 2147549104,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 4,
+            "tag": 16777727,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 5,
+            "tag": 16777727,
+            "block": 2147549136,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 6,
+            "tag": 16777727,
+            "block": 2147549152,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 7,
+            "tag": 16777727,
+            "block": 2147549168,
+            "dirty": false,
+            "lru": 1
+          }
+        ],
+        "miss_types": {
+          "compulsory": 20,
+          "capacity": 33,
+          "conflict": 117
+        }
+      },
+      "2": {
+        "references": 1703,
+        "hits": 1599,
+        "misses": 104,
+        "ratio": 0.9389312977099237,
+        "writes": 69,
+        "average_cycles": 2.2213740458015265,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 33555455,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 0,
+            "tag": 33554446,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 2
+          },
+          {
+            "index": 1,
+            "tag": 33554450,
+            "block": 2147484816,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 33555455,
+            "block": 2147549136,
+            "dirty": true,
+            "lru": 2
+          },
+          {
+            "index": 2,
+            "tag": 33554449,
+            "block": 2147484768,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 2,
+            "tag": 33555455,
+            "block": 2147549152,
+            "dirty": true,
+            "lru": 2
+          },
+          {
+            "index": 3,
+            "tag": 33554449,
+            "block": 2147484784,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 3,
+            "tag": 33555455,
+            "block": 2147549168,
+            "dirty": false,
+            "lru": 2
+          }
+        ],
+        "miss_types": {
+          "compulsory": 20,
+          "capacity": 38,
+          "conflict": 46
+        }
+      },
+      "4": {
+        "references": 1703,
+        "hits": 1645,
+        "misses": 58,
+        "ratio": 0.9659424544920728,
+        "writes": 38,
+        "average_cycles": 1.6811509101585433,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 67108900,
+            "block": 2147484800,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 0,
+            "tag": 67110910,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 2
+          },
+          {
+            "index": 0,
+            "tag": 67110911,
+            "block": 2147549152,
+            "dirty": true,
+            "lru": 3
+          },
+          {
+            "index": 0,
+            "tag": 67108892,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 4
+          },
+          {
+            "index": 1,
+            "tag": 67110910,
+            "block": 2147549136,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 67110909,
+            "block": 2147549104,
+            "dirty": true,
+            "lru": 2
+          },
+          {
+            "index": 1,
+            "tag": 67108899,
+            "block": 2147484784,
+            "dirty": true,
+            "lru": 3
+          },
+          {
+            "index": 1,
+            "tag": 67110911,
+            "block": 2147549168,
+            "dirty": false,
+            "lru": 4
+          }
+        ],
+        "miss_types": {
+          "compulsory": 20,
+          "capacity": 38
+        }
+      },
+      "8": {
+        "references": 1703,
+        "hits": 1645,
+        "misses": 58,
+        "ratio": 0.9659424544920728,
+        "writes": 38,
+        "average_cycles": 1.6811509101585433,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 134217801,
+            "block": 2147484816,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 0,
+            "tag": 134221821,
+            "block": 2147549136,
+            "dirty": true,
+            "lru": 2
+          },
+          {
+            "index": 0,
+            "tag": 134221819,
+            "block": 2147549104,
+            "dirty": true,
+            "lru": 3
+          },
+          {
+            "index": 0,
+            "tag": 134221820,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 4
+          },
+          {
+            "index": 0,
+            "tag": 134217799,
+            "block": 2147484784,
+            "dirty": true,
+            "lru": 5
+          },
+          {
+            "index": 0,
+            "tag": 134221822,
+            "block": 2147549152,
+            "dirty": true,
+            "lru": 6
+          },
+          {
+            "index": 0,
+            "tag": 134221823,
+            "block": 2147549168,
+            "dirty": false,
+            "lru": 7
+          },
+          {
+            "index": 0,
+            "tag": 134217784,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 8
+          }
+        ],
+        "miss_types": {
+          "compulsory": 20,
+          "capacity": 38
+        }
+      }
+    },
+    "line_sizes": {
+      "8": {
+        "references": 1703,
+        "hits": 1547,
+        "misses": 156,
+        "ratio": 0.9083969465648855,
+        "writes": 97,
+        "average_cycles": 2.832061068702291,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 16777223,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 16777225,
+            "block": 2147484808,
+            "dirty": false,
+            "lru": 1
+          },
+          {
+            "index": 2,
+            "tag": 16777225,
+            "block": 2147484816,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 3,
+            "tag": 16777224,
+            "block": 2147484696,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 4,
+            "tag": 16777224,
+            "block": 2147484704,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 5,
+            "tag": 16777224,
+            "block": 2147484712,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 6,
+            "tag": 16777224,
+            "block": 2147484720,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 7,
+            "tag": 16777727,
+            "block": 2147549112,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 8,
+            "tag": 16777224,
+            "block": 2147484736,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 9,
+            "tag": 16777727,
+            "block": 2147549128,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 10,
+            "tag": 16777224,
+            "block": 2147484752,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 11,
+            "tag": 16777727,
+            "block": 2147549144,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 12,
+            "tag": 16777224,
+            "block": 2147484768,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 13,
+            "tag": 16777727,
+            "block": 2147549160,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 14,
+            "tag": 16777224,
+            "block": 2147484784,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 15,
+            "tag": 16777727,
+            "block": 2147549176,
+            "dirty": false,
+            "lru": 1
+          }
+        ],
+        "miss_types": {
+          "compulsory": 33,
+          "capacity": 56,
+          "conflict": 67
+        }
+      },
+      "16": {
+        "references": 1703,
+        "hits": 1533,
+        "misses": 170,
+        "ratio": 0.9001761597181445,
+        "writes": 108,
+        "average_cycles": 2.9964768056371107,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 16777223,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 16777225,
+            "block": 2147484816,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 2,
+            "tag": 16777224,
+            "block": 2147484704,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 3,
+            "tag": 16777727,
+            "block": 2147549104,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 4,
+            "tag": 16777727,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 5,
+            "tag": 16777727,
+            "block": 2147549136,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 6,
+            "tag": 16777727,
+            "block": 2147549152,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 7,
+            "tag": 16777727,
+            "block": 2147549168,
+            "dirty": false,
+            "lru": 1
+          }
+        ],
+        "miss_types": {
+          "compulsory": 20,
+          "capacity": 33,
+          "conflict": 117
+        }
+      },
+      "32": {
+        "references": 1703,
+        "hits": 1435,
+        "misses": 268,
+        "ratio": 0.8426306517909571,
+        "writes": 196,
+        "average_cycles": 4.147386964180859,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 16777223,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 16777727,
+            "block": 2147549088,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 2,
+            "tag": 16777727,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 3,
+            "tag": 16777727,
+            "block": 2147549152,
+            "dirty": true,
+            "lru": 1
+          }
+        ],
+        "miss_types": {
+          "compulsory": 11,
+          "capacity": 74,
+          "conflict": 183
+        }
+      },
+      "64": {
+        "references": 1703,
+        "hits": 1353,
+        "misses": 350,
+        "ratio": 0.7944803288314739,
+        "writes": 269,
+        "average_cycles": 5.110393423370522,
+        "lines": [
+          {
+            "index": 0,
+            "tag": 16777223,
+            "block": 2147484544,
+            "dirty": true,
+            "lru": 1
+          },
+          {
+            "index": 1,
+            "tag": 16777727,
+            "block": 2147549120,
+            "dirty": true,
+            "lru": 1
+          }
+        ],
+        "miss_types": {
+          "compulsory": 7,
+          "capacity": 153,
+          "conflict": 190
+        }
+      }
+    },
+    "amdahl": {
+      "ic": 1320,
+      "references": 594,
+      "misses": 79,
+      "core_cycles": 1452,
+      "time": 3626,
+      "fraction": 0.3461905671185793,
+      "speedup_8": 1.4345488786166751,
+      "infinite": 1.5294976635514017
+    }
+  },
+  "O1": {
+    "cache": {
+      "references": 237,
+      "hits": 185,
+      "misses": 52,
+      "ratio": 0.7805907172995781,
+      "writes": 34,
+      "average_cycles": 5.3881856540084385,
+      "lines": [
+        {
+          "index": 0,
+          "tag": 16777221,
+          "block": 2147484288,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 1,
+          "tag": 16777223,
+          "block": 2147484560,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 2,
+          "tag": 16777222,
+          "block": 2147484448,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 3,
+          "tag": 16777222,
+          "block": 2147484464,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 4,
+          "tag": 16777222,
+          "block": 2147484480,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 5,
+          "tag": 16777222,
+          "block": 2147484496,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 6,
+          "tag": 16777727,
+          "block": 2147549152,
+          "dirty": false,
+          "lru": 1
+        },
+        {
+          "index": 7,
+          "tag": 16777727,
+          "block": 2147549168,
+          "dirty": false,
+          "lru": 1
+        }
+      ],
+      "miss_types": {
+        "compulsory": 17,
+        "capacity": 35
+      }
+    },
+    "timing": {
+      "counts": {
+        "ALU": 784,
+        "multiply": 133,
+        "load": 102,
+        "store": 135,
+        "control": 431
+      },
+      "ic": 1585,
+      "core_cycles": 2282,
+      "cpi": 1.4397476340694007,
+      "mips": 694.5661700262928,
+      "m": 0.14952681388012617,
+      "without_cache": 7022,
+      "with_cache": 3559.0
+    },
+    "stack": 14,
+    "array": 198,
+    "source_ic": 1362,
+    "source_refs": 183,
+    "sections": {
+      ".text": [
+        2147483648,
+        616
+      ],
+      ".rodata": [
+        2147484264,
+        4
+      ],
+      ".data": [
+        2147484288,
+        72
+      ],
+      ".bss": [
+        2147484360,
+        208
+      ],
+      ".riscv.attributes": [
+        0,
+        42
+      ],
+      ".debug_info": [
+        0,
+        398
+      ],
+      ".debug_abbrev": [
+        0,
+        282
+      ],
+      ".debug_aranges": [
+        0,
+        32
+      ],
+      ".debug_line": [
+        0,
+        725
+      ],
+      ".debug_str": [
+        0,
+        197
+      ],
+      ".debug_line_str": [
+        0,
+        153
+      ],
+      ".debug_frame": [
+        0,
+        88
+      ],
+      ".debug_loclists": [
+        0,
+        150
+      ]
+    }
+  },
+  "v2": {
+    "cache": {
+      "references": 1525,
+      "hits": 1311,
+      "misses": 214,
+      "ratio": 0.8596721311475409,
+      "writes": 166,
+      "average_cycles": 3.8065573770491814,
+      "lines": [
+        {
+          "index": 0,
+          "tag": 16777224,
+          "block": 2147484672,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 1,
+          "tag": 16777224,
+          "block": 2147484688,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 2,
+          "tag": 16777224,
+          "block": 2147484704,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 3,
+          "tag": 16777224,
+          "block": 2147484720,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 4,
+          "tag": 16777222,
+          "block": 2147484480,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 5,
+          "tag": 16777727,
+          "block": 2147549136,
+          "dirty": false,
+          "lru": 1
+        },
+        {
+          "index": 6,
+          "tag": 16777727,
+          "block": 2147549152,
+          "dirty": true,
+          "lru": 1
+        },
+        {
+          "index": 7,
+          "tag": 16777727,
+          "block": 2147549168,
+          "dirty": false,
+          "lru": 1
+        }
+      ],
+      "miss_types": {
+        "compulsory": 20,
+        "capacity": 23,
+        "conflict": 171
+      }
+    },
+    "timing": {
+      "counts": {
+        "ALU": 1963,
+        "multiply": 134,
+        "load": 983,
+        "store": 542,
+        "control": 451
+      },
+      "ic": 4073,
+      "core_cycles": 4792,
+      "cpi": 1.1765283574760619,
+      "mips": 849.958263772955,
+      "m": 0.3744168917260005,
+      "without_cache": 35292,
+      "with_cache": 10597.000000000002
+    },
+    "stack": 1148,
+    "array": 154,
+    "source_ic": 3850,
+    "source_refs": 1471,
+    "sections": {
+      ".text": [
+        2147483648,
+        804
+      ],
+      ".rodata": [
+        2147484452,
+        4
+      ],
+      ".data": [
+        2147484480,
+        72
+      ],
+      ".bss": [
+        2147484552,
+        208
+      ],
+      ".riscv.attributes": [
+        0,
+        42
+      ],
+      ".debug_info": [
+        0,
+        367
+      ],
+      ".debug_abbrev": [
+        0,
+        255
+      ],
+      ".debug_aranges": [
+        0,
+        64
+      ],
+      ".debug_line": [
+        0,
+        634
+      ],
+      ".debug_str": [
+        0,
+        285
+      ],
+      ".debug_line_str": [
+        0,
+        89
+      ],
+      ".debug_frame": [
+        0,
+        96
+      ]
+    }
+  },
+  "expected": {
+    "raw": [
+      60,
+      65,
+      87,
+      26,
+      56,
+      59,
+      63,
+      84,
+      18,
+      16,
+      69,
+      24,
+      25,
+      58,
+      41,
+      53,
+      24,
+      15,
+      27,
+      37,
+      100,
+      92,
+      49,
+      51,
+      68,
+      17,
+      21,
+      88,
+      32,
+      24,
+      29,
+      32,
+      10,
+      76,
+      48,
+      37,
+      45,
+      65,
+      27,
+      76,
+      0,
+      21,
+      46,
+      21
+    ],
+    "grades": [
+      60,
+      65,
+      87,
+      282,
+      56,
+      59,
+      63,
+      84,
+      274,
+      272,
+      69,
+      280,
+      281,
+      58,
+      297,
+      53,
+      280,
+      271,
+      283,
+      293,
+      100,
+      92,
+      49,
+      51,
+      68,
+      273,
+      277,
+      88,
+      288,
+      280,
+      285,
+      288,
+      266,
+      76,
+      48,
+      293,
+      45,
+      65,
+      283,
+      76,
+      256,
+      277,
+      46,
+      277
+    ],
+    "bucket": [
+      26,
+      7,
+      4,
+      3,
+      4
+    ],
+    "mean": 45,
+    "below_count": 22,
+    "pass_count": 18
+  }
+}
